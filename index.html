@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Sazón</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">El/Sazón</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Main content area -->
+    <main class="hero-section">
+        <div class="hero-content">
+            <h1 class="headline">Authentic Mexican Flavors in Every Bite</h1>
+            <p class="sub-headline">Experience the rich traditions of Mexico through our handcrafted dishes, made with love and generations-old recipes</p>
+            <a href="/menu" class="cta-button">View Our Menu</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/hero-tacos.jpg" alt="Assorted authentic Mexican tacos with lime and salsa" class="main-image">
+        </div>
+    </main>
+    <section class="about-section">
+        <div class="about-content">
+            <h2 class="about-headline">Our Story</h2>
+            <p class="about-text">
+                Founded in 1995, El Sazón began as a small family-owned eatery in the heart of Mexico City. Inspired by the rich culinary traditions of our ancestors, we set out to bring authentic Mexican flavors to our community. Our founder, Maria Gonzalez, grew up in a household where cooking was a cherished family ritual, and she dreamed of sharing her grandmother's recipes with the world.
+            </p>
+            <p class="about-text">
+                Over the years, El Sazón has grown from a humble taco stand to a beloved restaurant known for its vibrant atmosphere and delicious dishes. We pride ourselves on using fresh, locally-sourced ingredients and traditional cooking methods to create meals that are both flavorful and memorable. Our menu is a celebration of Mexico's diverse culinary heritage, featuring everything from classic street tacos to regional specialties.
+            </p>
+            <p class="about-text">
+                Today, El Sazón continues to be a family-run establishment, with Maria's children carrying on her legacy. We invite you to join us for a meal and experience the warmth and hospitality that have made El Sazón a cherished part of our community for over two decades.
+            </p>
+        </div>
+        <div class="about-image-gallery">
+            <div class="carousel">
+                <div class="carousel-images">
+                    <img src="assets/restaurant1.jpg" alt="El Sazón Restaurant 1" class="carousel-image">
+                    <img src="assets/restaurant2.jpg" alt="El Sazón Restaurant 2" class="carousel-image">
+                    <img src="assets/restaurant3.jpg" alt="El Sazón Restaurant 3" class="carousel-image">
+                </div>
+                <button class="carousel-button prev">‹</button>
+                <button class="carousel-button next">›</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section">
+        <h2 class="contact-headline">Contact Us</h2>
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 El Sazón. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Include the JavaScript file -->
+    <script src="app.js"></script>
+</body>
+</html>
